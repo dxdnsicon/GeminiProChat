@@ -66,4 +66,7 @@ export default defineConfig({
       process.env.OUTPUT === 'netlify' && disableBlocks(),
     ],
   },
+  server: {
+    port: 3211
+  }
 })
